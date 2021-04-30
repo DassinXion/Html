@@ -1,4 +1,12 @@
-# Demo
+# Lesson 01
+
+## Demo
+
+### Goal
+
+* Appliance of a element and anchor text
+* External & Internal link
+* ID the footer element
 
 ```html
 <h2>CatPhotoApp</h2>
@@ -21,13 +29,13 @@
 
 
 
-  # Task
+  ## Task
 
 1. **Change** your external link to an internal link by changing the ***href*** attribute to ***“#footer”*** and the text from ***cat photos*** to ***Jump to Bottom***.
 2. **Remove** the ***target=“_blank”*** attribute from the anchor tag since this cases the linked document to open in a new window tab.
 3. Then add an ***id*** attribute with a value of ***footer*** to the ***<footer>***  element at the bottom of the page.
 
-# My solution
+## My solution
 
 ```html
 <h2>CatPhotoApp</h2>
