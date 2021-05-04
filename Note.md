@@ -32,10 +32,13 @@ This is a comment
     ...
 </ol>
 
-<input type= "text" placeholder= "Default Text">
-
-
-
-
+<form action="link.com">
+    <input type= "text" required placeholder= "Default Text">
+    <button type="submit">
+        Submit
+    </button>
+    <label> <input id="option1" type="radio" name= "Group1">Option1 </label> 
+    <label> <input id="option2" type="radio" name= "Group1">Option2 </label>
+</form>s
 ```
 
