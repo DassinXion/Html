@@ -158,7 +158,11 @@
 
 ## Task
 
-Add a pair of radio buttons to your form, each nester in its own ***label*** element. One should have the option of ***indoor*** and the other should have the option of ***outdoor***. Both should share the ***name*** attribute of ***indoor-outdoor*** to create a radio group.
+1. Add a pair of radio buttons to your form, each nester in its own ***label*** element. One should have the option of ***indoor*** and the other should have the option of ***outdoor***. Both should share the ***name*** attribute of ***indoor-outdoor*** to create a radio group.
+2. Add to your form a set of three check boxes. Each check box should be nested within its own ***label*** element. All three should share the ***name*** attribute of ***personality***.
+3. Give each of the ***radio*** and ***check box*** inputs the ***value*** attribute. Use the input label text, in lowercase, as the value for the attribute.
+4. Set the first of your radio buttons and the first of your check boxes to both be checked by default.
+5. Nest your “Things cats love” and “Top 3 things cats hate” lists all within a single ***div*** element.
 
 ## Solution
 
@@ -169,6 +173,7 @@ Add a pair of radio buttons to your form, each nester in its own ***label*** ele
 
   <a href="#"><img src="https://www.bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
 
+<div>
   <p>Things cats love:</p>
   <ul>
     <li>cat nip</li>
@@ -181,17 +186,18 @@ Add a pair of radio buttons to your form, each nester in its own ***label*** ele
     <li>thunder</li>
     <li>other cats</li>
   </ol>
+</div>
+    
+    
   <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <label for="indoor"><input id="indoor" value="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label for="outdoor"><input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label for="loving"><input id="loving" value="loving" type="checkbox" name="personality" checked> Loving</label>
+    <label for="lazy"><input id="lazy" value="lazy" type="checkbox" name="personality"> Lazy</label>
+    <label for="energetic"><input id="energetic" value="energetic" type="checkbox" name="personality"> Energetic</label><br>
     <input type="text" placeholder="cat photo URL" required>
     <button type="submit">Submit</button>
- 
-    <label>
-      <input id="indoor" type="radio" name= "indoor-outdoor">  Indoor
-    </label>
-    <label>
-      <input id="outdoor" type="radio" name= "indoor-outdoor">  Outdoor
-    </label>
-   </form>
+  </form>
 </main>
 ```
 
