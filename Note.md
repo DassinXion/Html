@@ -39,6 +39,22 @@ This is a comment
     </button>
     <label> <input id="option1" type="radio" name= "Group1">Option1 </label> 
     <label> <input id="option2" type="radio" name= "Group1">Option2 </label>
-</form>s
+</form>
+```
+
+# CSS
+
+```css
+<h1 style= "color:blue;"> H1 text with color blue</h1>
+
+<style>
+h1 {color:blue;}
+</style>
+
+<style>
+.blue-text{color: blue;}
+</style>
+
+<h2 calss= "blue-text"> This is a class styled H2 title with blue</h2>
 ```
 
