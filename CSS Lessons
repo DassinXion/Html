@@ -1,10 +1,12 @@
 # Lesson 01
 
 * Set and change the text color with ***style*** element.	
+* A class to style an element.
+* Change the ***Font size & family*** of element
 
 ## Demo
 
-```css
+```html
 <h2>CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
@@ -37,4 +39,35 @@
   </form>
 </main>
 ```
+
+## Task
+
+1. Change the ***Color*** of text.
+2. Use CSS selectors to ***Style*** elements.
+3. Use a CSS ***Class*** to style an element.
+4. ***Style*** multiple elements with a CSS class.
+5. Change the ***Font Size*** of an element.
+6. Set the ***Font Family*** of an element.
+
+## Solution
+
+```html
+<style>
+    .red-text {color: red;}
+    p { font-size: 16px; font-family: monospace;}
+</style>
+
+<h2 class="red-text">
+    Catphotoapp
+</h2>
+<main>
+    """
+</main>
+```
+
+
+
+
+
+
 
