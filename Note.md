@@ -56,5 +56,8 @@ h1 {color:blue;}
 </style>
 
 <h2 calss= "blue-text"> This is a class styled H2 title with blue</h2>
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type='text/css'>
+
 ```
 
