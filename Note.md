@@ -58,6 +58,10 @@ h1 {color:blue;}
 <h2 calss= "blue-text"> This is a class styled H2 title with blue</h2>
 
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type='text/css'>
-
+<style>
+h2{font-family: Lobster, Monospace}
 ```
 
+## Contents
+
+Font degrade the first class family as default value, then the  following families.
