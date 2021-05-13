@@ -65,3 +65,26 @@ h2{font-family: Lobster, Monospace}
 ## Comments
 
 Font degrade the first class family as default value, then the  following families.
+
+Set an element an ID is simple:
+
+```html
+<p id=“Thefirstparagraph”> These people are always happy.</p>
+```
+
+And in the style element, you can define the style to the id elements with a “#”.
+
+```html
+<style>
+    #Thefirstparagraph{font-color:blue; font-size:16px; background-color: gray;}
+</style>
+```
+
+But if you want to style some element through the class, you should begin with a point in friont of the elements’ name.
+
+```html
+<style>
+    .p {font-color:red;}
+</style>
+```
+
