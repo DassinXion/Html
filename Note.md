@@ -19,7 +19,7 @@ This is a comment
 <a href= "baidu.com" Target= "blank">A BAD search engine</a>
 
 <a href= "#footer" > Jump to Bottom</a>
-<footerid= "footer">Copy Right All Reserved</footer>
+<footer id= "footer">Copy Right All Reserved</footer>
 
 <ul>
     <li>Unordered list item1</li>
@@ -62,6 +62,6 @@ h1 {color:blue;}
 h2{font-family: Lobster, Monospace}
 ```
 
-## Contents
+## Comments
 
 Font degrade the first class family as default value, then the  following families.
