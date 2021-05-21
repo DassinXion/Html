@@ -99,7 +99,7 @@ The **margin** and **padding** sizes ordered with “top, right, bottom. left”
 
 ## Comments
 
-Font degrade the first class family as default value, then the  following families.
+1. Font degrade the first class family as default value, then the  following families.
 
 Set an element an ID is simple:
 
@@ -122,4 +122,6 @@ But if you want to style some element through the class, you should begin with a
     .p {font-color:red;}
 </style>
 ```
+
+2. The order of the **class** declarations in the **<style>** section is what is important. The **subsequent** declaration will always take precedence over the **previous**. Nevertheless, **id** attrbute will always take precedence. **inline** styles make sense with a higher priority level. Then, **!important** stays highest priority.
 
