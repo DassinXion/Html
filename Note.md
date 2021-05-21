@@ -124,4 +124,8 @@ But if you want to style some element through the class, you should begin with a
 ```
 
 2. The order of the **class** declarations in the **<style>** section is what is important. The **subsequent** declaration will always take precedence over the **previous**. Nevertheless, **id** attrbute will always take precedence. **inline** styles make sense with a higher priority level. Then, **!important** stays highest priority.
-
+3. Three methods to style color: 
+   * Name of color(e.g. blue);
+   * Hex code of color(e.g. #00FF00)
+   * Abbreviated hex code (e.g. #F00)
+   * RGB values
