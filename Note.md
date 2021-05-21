@@ -14,6 +14,7 @@
 This is a comment
 -->
 
+
 <main>A tag in HTML for easier to read and help with Search Engine Optimization</main>
 
 <a href= "baidu.com" Target= "blank">A BAD search engine</a>
@@ -44,7 +45,7 @@ This is a comment
 
 # CSS
 
-```css
+```html
 <h1 style= "color:blue;"> H1 text with color blue</h1>
 
 <style>
@@ -60,6 +61,40 @@ h1 {color:blue;}
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type='text/css'>
 <style>
 h2{font-family: Lobster, Monospace}
+</style>
+
+===================Dividing line====================
+
+<!-- Make margin and padding -->
+<style>
+.injected-text {
+    margin-bottom: -25px; 
+    text-align: center;}
+.box {
+    background-color:blue; 
+    border-style:solid; 
+    border-width: 5px;}
+.red-box {
+    background-color: red;
+    color: #ff;
+    padding: 10px 10px 20px 20px;}
+.blue-box {
+    background-color: blue;
+    color: #ff;
+    margin: 10px 10px 20px 20px;}
+</style>
+<h3 class="injected-text">margin</h3>
+<div class="box red-box">
+	<h5 class="red-box"> padding</h5>
+	<h5 class="blue-box"> padding</h5>
+</div>
+
+<!--
+The **margin** and **padding** sizes ordered with “top, right, bottom. left”. -->
+
+===================Dividing line end====================
+
+
 ```
 
 ## Comments
