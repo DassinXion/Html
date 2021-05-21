@@ -129,3 +129,5 @@ But if you want to style some element through the class, you should begin with a
    * Hex code of color(e.g. #00FF00)
    * Abbreviated hex code (e.g. #F00)
    * RGB values
+4. Custom CSS variable and fallback value
+5. Inherit CSS variable
