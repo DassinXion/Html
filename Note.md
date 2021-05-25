@@ -131,3 +131,12 @@ But if you want to style some element through the class, you should begin with a
    * RGB values
 4. Custom CSS variable and fallback value
 5. Inherit CSS variable
+
+```html
+<style>@media (max-width:350px) { :root{---penguin-size:200px;}}</style>
+```
+
+Style elements like meidia query, use “@” to define it.
+
+
+

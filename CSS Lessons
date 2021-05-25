@@ -181,7 +181,14 @@
 </main>
 ```
 
+# Lesson 04
 
+* Padding & margin elements.
+* Clockwise notation.
+* Attribute selectors to style elements.
+* Inherit styles from the body element.
+* Prioritize one style over another.
+* CSS variables and media query.
 
 
 
