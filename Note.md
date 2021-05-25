@@ -136,7 +136,7 @@ But if you want to style some element through the class, you should begin with a
 <style>@media (max-width:350px) { :root{---penguin-size:200px;}}</style>
 ```
 
-Style elements like meidia query, use “@” to define it.
+Style elements like meidia query, use an “@” in style commond to define it.
 
 
 
