@@ -123,6 +123,10 @@ And in the style element, you can define the style to the id elements with a “
 </style>
 ```
 
+**CORRECT** way out:
+
+Style a customed element with a specific class by using a point ahead;
+
 2. The order of the **class** declarations in the **<style>** section is what is important. The **subsequent** declaration will always take precedence over the **previous**. Nevertheless, **id** attrbute will always take precedence. **inline** styles make sense with a higher priority level. Then, **!important** stays highest priority.
 3. Three methods to style color: 
    * Name of color(e.g. blue);
