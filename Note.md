@@ -115,7 +115,7 @@ And in the style element, you can define the style to the id elements with a “
 </style>
 ```
 
-But if you want to style some element through the class, you should begin with a point in friont of the elements’ name.
+~~But if you want to style some element through the class, you should begin with a point in friont of the elements’ name.~~ <!--INCORRECT-->
 
 ```html
 <style>
