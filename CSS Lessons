@@ -270,6 +270,28 @@ Let’s add the keyword ***!important*** to your pink-text element’s color dec
 
 Target:
 
-1. Your ***h1*** element should have the class ***pink-text***.
-2. Your ***h1***
+1. Your ***h1*** element should have the class ***pink-text***, ***blue-text***, the ***id*** of ***orange-text***,  the inline style of ***color: white***.
+2. Your ***pink-text*** class declaration should have the ***!important*** keyword to override all other declarations.
+
+```html
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
+```
+
+
 
