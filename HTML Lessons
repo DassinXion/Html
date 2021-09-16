@@ -1,6 +1,12 @@
-# Lesson 01
+# Basic HTML and HTML5
 
-## Demo
+HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content. For example, different elements can describe text as a heading, paragraph, or list item.
+
+In this course, you'll build a cat photo app to learn some of the most common HTML elements — the building blocks of any webpage.
+
+## Lesson 01
+
+### Demo
 
 * Appliance of a element and anchor text
 * External & Internal link
@@ -27,13 +33,13 @@
 
 
 
-  ## Task
+### Task
 
 1. **Change** your external link to an internal link by changing the ***href*** attribute to ***“#footer”*** and the text from ***cat photos*** to ***Jump to Bottom***.
 2. **Remove** the ***target=“_blank”*** attribute from the anchor tag since this cases the linked document to open in a new window tab.
 3. Then add an ***id*** attribute with a value of ***footer*** to the ***<footer>***  element at the bottom of the page.
 
-## Solution
+### Solution
 
 ```html
 <h2>CatPhotoApp</h2>
@@ -53,9 +59,9 @@
 <footer id= "footer">Copyright Cat Photo App</footer>
 ```
 
-# Lesson 02
+## Lesson 02
 
-## Demo
+### Demo
 
 * Text field & Placeholder
 * Form element
@@ -83,13 +89,13 @@
 </main>
 ```
 
-## Task
+### Task
 
 1. Nest the existing ***input*** element inside a ***form*** element and assign ***“https://www.freecatphotoapp.com/submit-cat-photo”*** to the ***action*** attribute of the ***form*** element.
 2. Add a button as the last element of your ***form*** element with a type of ***Submit***. And ***Submit*** as its text.
 3. Make your text ***input*** a ***required*** field.
 
-## Solution
+### Solution
 
 ```html
 <h2>CatPhotoApp</h2>
@@ -117,9 +123,9 @@
 </main>
 ```
 
-# Lesson 03
+## Lesson 03
 
-## Demo
+### Demo
 
 * Label element
 * goal2
@@ -150,7 +156,7 @@
 </main>
 ~~~
 
-## Task
+### Task
 
 1. Add a pair of radio buttons to your form, each nester in its own ***label*** element. One should have the option of ***indoor*** and the other should have the option of ***outdoor***. Both should share the ***name*** attribute of ***indoor-outdoor*** to create a radio group.
 2. Add to your form a set of three check boxes. Each check box should be nested within its own ***label*** element. All three should share the ***name*** attribute of ***personality***.
@@ -158,7 +164,7 @@
 4. Set the first of your radio buttons and the first of your check boxes to both be checked by default.
 5. Nest your “Things cats love” and “Top 3 things cats hate” lists all within a single ***div*** element.
 
-## Solution
+### Solution
 
 ```html
 <h2>CatPhotoApp</h2>
@@ -195,14 +201,14 @@
 </main>
 ```
 
-# Lesson 04
+## Lesson 04
 
-## Demo
+### Demo
 
 *　Declare the Doctype of an HTML Document
 *　Define the Head and Body of an HTML Document
 
-## Task
+### Task
 
 1. Add a ***DOCTYPE*** tag for HTML5 to the top of the blank HTML document in the code editor. Under it, add opening and closing ***html*** tags, which wrap around an ***h1*** element. The heading can include any text.
 2. Edit the markup so there’s a ***head*** and a ***body*** element should only include the ***title*** , and the ***body*** element should only include the ***h1*** and ***p***.
@@ -218,7 +224,7 @@
 </html>
 ```
 
-## Solution
+### Solution
 
 ```html
 <!DOCTYPE html>
