@@ -268,7 +268,7 @@ In this course, you'll build a cat photo app to learn some of the most common HT
 
 ```
 
-## Exam
+### Exam
 
 Let’s add the keyword ***!important*** to your pink-text element’s color declaration to make 100% sure that your ***h1*** element will be pink.
 
@@ -297,7 +297,7 @@ Target:
 <h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
 ```
 
-## Lesson 05 Applied visual design
+## Lesson 01
 
 ## Creat a graph using css
 
