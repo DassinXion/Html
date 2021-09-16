@@ -293,11 +293,9 @@ Target:
 <h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
 ```
 
-# Lesson 05
+# Lesson 05 Applied visual design
 
-## Applied visual design
-
-Creat a graph using css
+## Creat a graph using css
 
 ```css
 <style>
@@ -321,7 +319,7 @@ Creat a graph using css
 
 
 
-Create a more complex shape using css and html
+## Create a more complex shape using css and html
 
 ```css
 <style>
